@@ -312,7 +312,7 @@ Mobile Responsive web page or laptop and desktop
         display: none;
     }
     .play-video video{
-        width: 400px !important;
+        width: 320px !important;
         border-radius: 10px;
         border: 1px solid #835d5c;
     }
@@ -461,7 +461,7 @@ button {
 .vid-description p{
     margin-top: 10px;
     font-weight: normal;
-    font-style: italic;
+    
 
     letter-spacing: 1.2px;
 
@@ -506,6 +506,80 @@ button {
 }
 .acomment-action{
     display: flex;
+    margin: 8px 0;
+    font-size: 14px;
     
     
+}
+.old-comment .acomment-action img{
+    border-radius: 0;
+    width: 20px;
+    margin-right: 5px;
+}
+ .acomment-action article{
+    margin-right: 20px;
+    color: #5a5a5a;
+} 
+.play-container{
+    padding-left: 2%;
+}
+@media (max-width:662px){
+  .play-video{
+    flex-basis: 100%;
+    
+    
+  }
+  .right-sidebar{
+    flex-basis: 100%;
+  }
+  .play-container{
+    padding-left: 5%;
+    
+  }
+  video{
+    width: 200px;
+
+  }
+  .plublisher{
+display: flex;
+width: 400px;
+  }
+  .add-comment img{
+    margin-left: 3px;
+  }
+  .plublisher img{
+    margin-left: 2px;
+  }
+  .plublisher p{
+    width: 300px;
+  }
+  .plublisher button{
+    margin-left: -120%;
+  }
+  .vid-description{
+    letter-spacing: 0;
+    word-spacing: 0;
+    font-style: normal;
+  }
+  .vid-description .pp{
+    font-weight: bold;
+    font-size: 17px;
+  }
+  .old-comment img{
+    margin-left: 10px;
+  }
+  .old-comment h3{
+    margin-bottom:7px;
+    font-family: outfit;
+    margin-left: 1px;
+  }
+  .old-comment .ar{
+    font-family: outfit;
+    width: 100%;
+    
+  }
+  .old-comment .ar{
+    width: 300px;
+  }
+  
 }
