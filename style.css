@@ -583,3 +583,9 @@ width: 400px;
   }
   
 }
+.vid-list a img .thumnail1{
+    height: 200px !important;
+}
+.vid-list .thumnail1{
+    height: 300px !important;
+}
