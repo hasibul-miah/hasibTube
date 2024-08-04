@@ -583,9 +583,24 @@ width: 400px;
   }
   
 }
-.vid-list a img .thumnail1{
-    height: 200px !important;
+
+table{
+    width: 110%;
+    color: white;
 }
-.vid-list .thumnail1{
-    height: 300px !important;
+
+.usdconvart{
+  border: 1px;  
+  padding:10px 15px ;
+  
+  
+}
+.usdconvart tr td{
+    padding-left: 19px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    background-color:#ED3833;
+}
+.usdconvart th{
+    padding: 10px 20px;
 }
